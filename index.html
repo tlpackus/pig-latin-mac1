@@ -3,9 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Pig Latin Translator</title>
 </head>
 <body>
+
+  <h1> Pig Latin Translator </h1>
+  <div class="container">
+    <form id="pig-form">
+      <label for="word">Enter in one Regular Word: </label>
+      <input type="text" name="word" id="word" class="form-control">
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+  <div>
+    <h1 id="left"> Your Sentence: <span id="original"></span></h1>
+    <h1 id="right"> Your Pig Latin Translation: <span id="pig"></span></h1>
+  </div>
   
 </body>
 </html>
